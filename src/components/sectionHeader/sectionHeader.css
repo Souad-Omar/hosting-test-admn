@@ -1,0 +1,15 @@
+.section-header{
+    font-size: 36px;
+    margin-bottom: 40px;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 2;
+    padding-bottom: 5px;
+}
+.section-header.center{
+    text-align: center;
+}
+.section-header.right{
+    text-align: right;
+}

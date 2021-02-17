@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*,*:before,*:after{
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root{
+  --dark-main: #2C2C36;
+  --gray-100: #f3f5f7;
+  --gray-150: #e8eaee;
+  --gray-200: #dee1e7;
+  --gray-300: #c5cad6;
+  --gray-400: #afb4c2;
+  --dark-500: #A4A9B9;
+  --orange-red: #FD4355;
+  --shadow-lvl-1: 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12), 0 1px 3px 0 rgba(0,0,0,0.20);
+  --shadow-lvl-2: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.20);
+  --shadow-lvl-3: 0 3px 4px 0 rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12), 0 1px 8px 0 rgba(0,0,0,0.20);
+  --shadow-lvl-4:  0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.20);
+}
+.shadow-lvl-1{
+  box-shadow: var(--shadow-lvl-1);
+}
+.magic{
+  height: calc(100vh - 88px);
+  overflow-y: auto;
+  padding-bottom: 30px;
+}
